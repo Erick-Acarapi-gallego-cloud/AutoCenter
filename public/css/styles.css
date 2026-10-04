@@ -1,0 +1,105 @@
+body{ 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    color: white; 
+    text-align: center; 
+    background-image: url("../images/10.gif"); 
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+} 
+
+nav{ 
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    background: rgba(0,0,0,0.8); 
+    padding: 15px; 
+} 
+
+nav a{ 
+    color: gold; 
+    font-size: 20px; 
+    text-decoration: none; 
+    font-weight: bold; 
+} 
+
+nav a:hover{ 
+    color: white; 
+} 
+
+table{ 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    background: rgba(0,0,0,0.6); 
+} 
+
+th, td{ 
+    padding: 10px; 
+    border: 1px solid white; 
+} 
+
+#miBox{ 
+    border: 3px solid white; 
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 60%; 
+    background: rgba(0,0,0,0.5); 
+} 
+
+.miCaja{ 
+    border: 3px solid yellow; 
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 60%; 
+    background: rgba(0,0,0,0.5); 
+} 
+
+#miCaja2{ 
+    border: 3px solid red; 
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 60%; 
+    background: rgba(0,0,0,0.5); 
+} 
+
+#miCaja3{ 
+    border: 3px solid green; 
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 60%; 
+    background: rgba(0,0,0,0.5); 
+} 
+
+a{ 
+    color: gold; 
+} 
+
+.btn{ 
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 5px; 
+    background: gold; 
+    color: black; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 6px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    font-size: 15px; 
+} 
+
+.btn:hover{ 
+    background: #ffd700; 
+} 
+
+input, select{ 
+    padding: 6px; 
+    margin: 4px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background: #f8f8f8; 
+    color: black; 
+    font-size: 15px; 
+}
